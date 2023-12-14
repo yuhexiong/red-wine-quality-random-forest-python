@@ -48,8 +48,3 @@ plt.title("Confusion Matrix")
 plt.xlabel("Predicted Label")
 plt.ylabel("True Label")
 plt.show()
-
-# tree plot
-plt.figure(figsize=(12, 8))
-plot_tree(rfc)
-plt.show()
